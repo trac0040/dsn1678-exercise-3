@@ -134,7 +134,7 @@ body {
   opacity:1;
 }
 
-.sales__details::before {
+.sales__details1::before, .sales__details1::before{
   top: -10px;
   content: " ";
   height: 0;
