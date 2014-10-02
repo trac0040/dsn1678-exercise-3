@@ -99,17 +99,19 @@ body {
   background-color: #000;
   border-radius: 6px;
   opacity:0;
+  transition:all linear 250ms;
 }
 
 .sales__details1[data-state=active] {
   left: 0;
-  margin: 25px 5% 0;
+  margin: 0px 5% 0;
   padding: 2em;
   position: absolute;
   width: 90%;
   background-color: #000;
   border-radius: 6px;
   opacity:1;
+  transition:all linear 250ms;
 }
 
 .sales__details2{
@@ -121,17 +123,19 @@ body {
   background-color: #000;
   border-radius: 6px;
   opacity:0;
+  transition:all linear 250ms;
 }
 
 .sales__details2[data-state=active] {
   left: 0;
-  margin: 25px 5% 0;
+  margin: 0px 5% 0;
   padding: 2em;
   position: absolute;
   width: 90%;
   background-color: #000;
   border-radius: 6px;
   opacity:1;
+  transition:all linear 250ms;
 }
 
 .sales__details1::before, .sales__details2::before{
