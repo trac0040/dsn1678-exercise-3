@@ -1,13 +1,13 @@
-var sales1 = $('.sales1')
-var salesDetails1 = $('.sales__details1')
+var sales1 = $('.sales1');
+var salesD1 = $('.sales__details1');
 
 var buttonClickHandler = function () {
-	var currentState = salesDetails1.attr('data-state');
+	var currentState = salesD1.attr('data-state');
 	
 	if (currentState == 'active') {
-		salesDetails1.attr('data-state', 'inactive')
+		salesD1.attr('data-state', 'inactive')
 	} else {
-		salesDetails1.attr('data-state', 'active')	
+		salesD1.attr('data-state', 'active')	
 	}
 };
 
