@@ -81,7 +81,11 @@ body {
   font-size: 6rem;
 }
 
-.sales__details {
+.sales__details1 {
+	opacity:0;
+}
+
+.sales__details1[data-state=active] {
   left: 0;
   margin: 25px 5% 0;
   padding: 2em;
@@ -90,6 +94,38 @@ body {
 
   background-color: #000;
   border-radius: 6px;
+  opacity:1;
+}
+
+.sales__details2{
+	opacity:0;
+}
+
+.sales__details2[data-state=active] {
+  left: 0;
+  margin: 25px 5% 0;
+  padding: 2em;
+  position: absolute;
+  width: 90%;
+
+  background-color: #000;
+  border-radius: 6px;
+  opacity:1;
+}
+
+
+.sales__details::before {
+  top: -10px;
+  content: " ";
+  height: 0;
+  left: -10px;
+  margin-left: 50%;
+  position: absolute;
+  width: 0;
+
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #000;
 }
 
 .sales__details::before {
